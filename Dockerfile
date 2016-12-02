@@ -7,4 +7,4 @@ RUN go install
 
 ENTRYPOINT /go/bin/golang-ping
 
-EXPOSE 9999
+EXPOSE 80

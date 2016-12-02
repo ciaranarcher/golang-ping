@@ -6,7 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("pong!"))
+	w.Write([]byte("KER-pong!"))
 	fmt.Println("ponged a ping")
 }
 
